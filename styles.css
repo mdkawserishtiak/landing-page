@@ -50,7 +50,8 @@ button:hover {
 }
 
 .header,
-.hero {
+.hero,
+.footer {
   background-color: #1f2937;
 }
 
@@ -64,7 +65,8 @@ button:hover {
 .logo,
 .hero__title,
 button,
-.call-to-action__title {
+.call-to-action__title,
+.footer__text {
   color: #f9faf8;
 }
 
@@ -200,4 +202,13 @@ button,
 .call-to-action__title,
 .call-to-action__text {
   margin: 0;
+}
+
+.footer {
+  text-align: center;
+}
+
+.footer__text {
+  margin: 0;
+  padding: 50px 0;
 }
