@@ -111,6 +111,10 @@ button {
   font-size: 18px;
 }
 
+.information {
+  margin-bottom: 60px;
+}
+
 .information .container {
   padding: 40px;
   text-align: center;
@@ -141,4 +145,30 @@ button {
 .information__text {
   margin-top: 5px;
   color: gray;
+}
+
+.quote {
+  background-color: #e5e7eb;
+}
+
+.quote .container {
+  padding: 110px;
+}
+
+.quote__quote, .quote__author {
+  margin: 0;
+}
+
+.quote__quote {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.quote__author {
+  margin-top: 5px;
+  color: #1f2937;
+  font-weight: bold;
+  text-align: end;
 }
