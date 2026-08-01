@@ -39,6 +39,10 @@ button:hover {
   color: #3882f6;
 }
 
+.button--secondary {
+  border: 3px solid #f9faf8;
+}
+
 .container {
   max-width: 1200px;
   margin: auto;
@@ -59,7 +63,8 @@ button:hover {
 
 .logo,
 .hero__title,
-button {
+button,
+.call-to-action__title {
   color: #f9faf8;
 }
 
@@ -74,7 +79,8 @@ button {
 }
 
 .header__link,
-.hero__text {
+.hero__text,
+.call-to-action__text {
   color: #e5e7eb;
 }
 
@@ -155,7 +161,8 @@ button {
   padding: 110px;
 }
 
-.quote__quote, .quote__author {
+.quote__quote,
+.quote__author {
   margin: 0;
 }
 
@@ -171,4 +178,26 @@ button {
   color: #1f2937;
   font-weight: bold;
   text-align: end;
+}
+
+.call-to-action {
+  padding: 100px 0;
+}
+
+.call-to-action .container {
+  background-color: #3882f6;
+  border-radius: 10px;
+  padding: 40px 160px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.call-to-action__left {
+  width: 70%;
+}
+
+.call-to-action__title,
+.call-to-action__text {
+  margin: 0;
 }
